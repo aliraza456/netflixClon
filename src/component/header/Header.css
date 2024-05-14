@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 1rem; 
+    background-color: black;
+  }
+  
+  .logo {
+    margin: 0; 
+    font-size: 1.5rem; 
+    color: #E50914; 
+  }
+  
+  .logo span {
+    color: #ffffff; 
+  }
+  
+  .add-button {
+  
+    border-radius: 3px; 
+    color: #f65261; 
+    background: #606060AD;
+    border: none;
+    padding: 0.5rem 1rem; 
+    font-size: 1rem; 
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: none; 
+    border: #fff;
+  }
+
+  

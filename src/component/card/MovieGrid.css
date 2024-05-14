@@ -1,0 +1,46 @@
+/* MovieGrid.css */
+.movie-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.movie-card {
+  width: 300px;
+  margin: 10px;
+}
+.movie-title {
+  color: #bebebe;
+  padding: 0;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.94px;
+  text-align: left;
+}
+.movie-rating {
+  color: #bebebe;
+  padding-top: 5px;
+  font-family: Montserrat;
+}
+.card-contant {
+  background-color: #323232;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.movie-date {
+  border: 1px solid #fff;
+  opacity: 70%;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.07px;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
