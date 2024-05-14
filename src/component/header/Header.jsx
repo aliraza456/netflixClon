@@ -1,12 +1,11 @@
 import React from "react";
+import logo from '../../assets/netflixroulette.svg'
 import "./Header.css";
 
 const Header = ({ handleOpen }) => {
   return (
     <div className="navbar">
-      <h2 className="logo">
-        Netflix<span>Clon</span>
-      </h2>
+      <img src={logo} alt="logo" />
       <button className="add-button" onClick={handleOpen}>
         + ADD MOVIE
       </button>
