@@ -4,6 +4,7 @@ import Search from "./component/search/Search";
 import Navbar from './component/navbar/Navbar';
 import BasicModal from "./component/Modal/Modal";
 import MoviesList from "./component/card/MoviesList";
+import Footer from './component/footer/Footer'
 import "./App.css";
 
 const App = () => {
@@ -17,7 +18,7 @@ const App = () => {
       <Search />
       <Navbar />
       <MoviesList />
-
+      <Footer />
     </div>
   );
 };
