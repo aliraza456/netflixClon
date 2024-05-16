@@ -6,7 +6,7 @@ import CardMedia from "@mui/material/CardMedia";
 
 const MovieCard = ({ movie }) => {
   return (
-    <Card sx={{ width: 320, margin: 3 }}>
+    <Card sx={{ width: 320, margin: 3, cursor: "pointer"}}>
       <CardMedia
         component="img"
         alt={movie.title}

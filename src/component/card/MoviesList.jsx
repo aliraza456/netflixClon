@@ -5,7 +5,7 @@ const MoviesList = () => {
   return (
     <div className="movies-list">
       <div>
-        <h1>39 Movies Found</h1>
+        <h1 className="movie-count"> <span>39 </span>Movies Found</h1>
       </div>
       <div className="list">
         <MovieGrid />

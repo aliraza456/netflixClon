@@ -7,16 +7,17 @@
   background: linear-gradient(rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.71)), url('../../assets/bg.png');
   background-size: cover;
   background-position: center;
- 
-  width: 100vw;
+  width: 100%;
 }
-h1 {
+.search-title {
   font-family: 'Montserrat', sans-serif;
   color: white;
-  /* font-size: calc(1.25rem + 1.5vw);  */
   font-weight: 300;
+  font-size: 40px;
   display: flex;
-  width: 100vw; padding: 0;
+  width: 100%; 
+  padding: 0;
+  text-align: left;
 
 }
 .search-container {

@@ -6,7 +6,7 @@ const Search = () => {
     <>
       <div className="home-container">
         <div>
-          <h1>FIND YOUR MOVIE</h1>
+          <h1 className="search-title">FIND YOUR MOVIE</h1>
         </div>
         <div className="search-container">
           <input className="search-input" placeholder="search movie here" />
