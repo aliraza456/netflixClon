@@ -1,12 +1,14 @@
 import React from "react";
-import MovieGrid from './MovieGrid'
+import MovieGrid from "./MovieGrid";
 import "./moviesList.css";
 const MoviesList = () => {
   return (
     <div className="movies-list">
-      <h1>39 Movies Found</h1>
+      <div>
+        <h1>39 Movies Found</h1>
+      </div>
       <div className="list">
-      <MovieGrid />
+        <MovieGrid />
       </div>
     </div>
   );

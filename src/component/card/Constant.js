@@ -3,25 +3,25 @@ import image2 from '../../assets/2.jpg'
 import image3 from '../../assets/3.jpg'
 import image4 from '../../assets/4.jpg'
 import image5 from '../../assets/5.jpeg'
-import image6 from '../../assets/3.jpg'
+import image6 from '../../assets/6.jpg'
 
 
 const movies = [
   {
     title: 'JAWS',
-    rating: '8.1',
+    rating: '5.1',
     image: image1,
     year: '2011',
   },
   {
     title: 'BLACK PANTHER',
-    rating: '7.5',
+    rating: '8.5',
     image: image2,
     year: '2016',
   },
   {
     title: 'OPPENHEIMER',
-    rating: '8.7',
+    rating: '7.7',
     image: image3,
     year: '2023',
   },
@@ -39,7 +39,7 @@ const movies = [
   },
   {
     title: 'ONE PIECE',
-    rating: '7.8',
+    rating: '9.8',
     image: image6,
     year: '2024',
   }
