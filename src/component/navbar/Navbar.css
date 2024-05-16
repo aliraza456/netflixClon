@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
   background: #333333;
+  width: 100vw;
 }
 
 .gallery-container {
@@ -36,7 +36,7 @@
   display: flex;
   align-items: center;
   flex-shrink: 0;
-  margin-left: 40px;
+  /* margin-left: 10px; */
 }
 .sort-container label {
   margin-right: 10px;
